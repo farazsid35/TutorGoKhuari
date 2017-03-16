@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#004678"
+    android:orientation="vertical">
+    <customfonts.MyTextView
+        android:layout_width="139dp"
+        android:layout_height="match_parent"
+        android:text="Menu"
+        android:textSize="40dp"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ADVERTISE AS TUTOR"
+        android:id="@+id/advertise"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="OnAdvertiseClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SEARCH FOR TUTOR"
+        android:id="@+id/searchtutor"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="OnSearchClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VIEW PUBLIC PROFILE"
+        android:id="@+id/viewprofile"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GO PREMIUM"
+        android:id="@+id/premium"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LOGOUT"
+        android:id="@+id/logout"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="OnLogoutClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HOME"
+        android:id="@+id/home"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="OnHomeClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+</LinearLayout>

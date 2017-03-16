@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#004678"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SEARCH FOR TUTOR"
+            android:textSize="30dp"
+            android:textColor="#FFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Subject"
+            android:id="@+id/mytext1"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Level"
+            android:id="@+id/advertise"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="160dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchsub"
+            android:layout_weight="0.36" />
+
+        <Spinner
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchlevel"
+            android:layout_weight="0.55" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="City"
+            android:id="@+id/mytext2"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Area"
+            android:id="@+id/advertise2"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="160dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        >
+        <Spinner
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchcity"
+            android:layout_weight="0.36" />
+
+        <Spinner
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searcharea"
+            android:layout_weight="0.55" />
+    </LinearLayout>
+
+    <customfonts.MyTextView
+        android:id="@+id/searchtut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myrect"
+        android:text="SEARCH"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginTop="32dp"
+
+
+        android:onClick="OnSearchClick" />
+</LinearLayout>

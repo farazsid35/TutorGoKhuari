@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#004678"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="36dp"
+            android:id="@+id/menu"
+            android:src="@drawable/menu1"
+            android:onClick="OnMenuClick" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/icontg"
+            android:translationZ="0dp" />
+
+        <TextView
+            android:id="@+id/selectedname"
+            android:layout_width="630dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="22dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.72" />
+
+    </LinearLayout>
+
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:id="@+id/textviewmy"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:id="@+id/selectedsubject"
+        android:textColor="#004678"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:id="@+id/textviewmy1"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:id="@+id/selectedlevel"
+        android:textColor="#004678"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:id="@+id/textviewmy2"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:id="@+id/selectedprice"
+        android:textColor="#004678"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"></LinearLayout>
+
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:id="@+id/textviewmy3"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:translationZ="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+
+        <customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:id="@+id/selectecontact"
+                android:textColor="#004678"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="OnContactClick"
+            android:fillViewport="false" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:id="@+id/imagePhone"
+            android:src="@drawable/phone"
+            android:translationZ="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
